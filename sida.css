@@ -1,0 +1,41 @@
+html {
+    background-color:#F6F6F6;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width:400px;
+    background-color:#F6F6F0;
+}
+#ruta1 {
+    margin-top:10px;
+    border:10px;
+}
+#header {
+    height:70px;
+    background:url("banner_vinter.png")
+}
+#textex {
+    padding-top:15px; 
+}
+#bild1{
+    background:url("glass.png");
+    width:95px;
+    height:95px; 
+    
+}
+#bild2 {
+    background: url("bock.png");
+    width:95px;
+    height:95px; 
+}
+bild3 {
+    background: url("krumelur.png");
+    width:95px;
+    height:95px; 
+}
+#bild4 {
+    background: url("banner_vinter.png");
+    width:95px;
+    height:95px; 
+}
