@@ -4,38 +4,58 @@ html {
 body {
     margin-left: auto;
     margin-right: auto;
-    width:400px;
+    width:600px;
     background-color:#F6F6F0;
+   <!-- border-style: solid;
+    border-width: 10px;
+    border-color: blue;-->
 }
 #ruta1 {
     margin-top:10px;
-    border:10px;
 }
 #header {
-    height:70px;
-    background:url("banner_vinter.png")
-}
-#textex {
-    padding-top:15px; 
-}
-#bild1{
-    background:url("glass.png");
-    width:95px;
-    height:95px; 
+     height:170px;                                                                 background:url("S%C3%A4vsj%C3%B6%20H%C3%A4radsv%C3%A4g(2).png");
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     
 }
+#textex {
+    padding-top:16px; 
+}
+#slider {
+    height: 100px;
+}
+#bild1{
+    background-color:red;
+    width: 33%;
+    height:95px; 
+    float:left;
+    <!--border-left:8px;
+    border-left-style: solid;
+    border-left-color: black;-->
+}
 #bild2 {
-    background: url("bock.png");
-    width:95px;
+    background-color:orange;
+    float:right;
+    width:33%;
     height:95px; 
+    overflow: hidden;
 }
-bild3 {
-    background: url("krumelur.png");
-    width:95px;
+#bild3 {
+    background-color:blue;
+    float:right;
+    width:33%;
     height:95px; 
+    <!--border-left-style: solid;
+    border-left-width: 8px;-->
+    
+    
 }
-#bild4 {
-    background: url("banner_vinter.png");
-    width:95px;
-    height:95px; 
+
+#ruta2 {
+
+    
+
 }
+
