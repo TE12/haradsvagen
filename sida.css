@@ -17,17 +17,18 @@ body {
 }
 
 #header {
-    height:170px;
-    padding: 50px;
-    background:url("haradsvagen.png");
-        
+    height:200px;
+        background:url("haradsvagen.png");
         background-position: center;
         background-repeat: no-repeat;
-        background-size:contain;
+        background-size:100% 100%;
+        
 }
 
 #ruta2{
-    padding: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
 
 #slider {
