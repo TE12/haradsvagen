@@ -3,6 +3,7 @@ html {
 }
 
 body {
+    margin-top: 0;
     margin-left: auto;
     margin-right: auto;
     width:100%;
@@ -22,7 +23,7 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size:100% 100%;
-        
+    
 }
 
 #ruta2{
