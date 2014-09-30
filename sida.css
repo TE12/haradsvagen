@@ -20,12 +20,11 @@ body {
 }
 
 #header {
-    height:230px;
-        background:url("haradsvagen.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size:100% 100%;
     
+}
+#header_image {
+    width: 100%;
+
 }
 
 #ruta2{
