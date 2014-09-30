@@ -36,36 +36,64 @@ body {
 
 #slider {
     height: 150px;
-    
+    border-bottom-style: solid;
+    border-bottom-width: 7px;
+    border-bottom-color: black;
 }
 
 #bild1  {
-    background-color:red;
+        
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+        border-style: solid;
+        border-left: 0px;
+        
         width: 33%;
         height:150px; 
         float:left;
-            <!--border-left:8px;
-            border-left-style: solid;
-            border-left-color: black;-->
 }
 
 #bild2 {
-    background-color:orange;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border-right: 0px;
+    border-style: solid;
         float:right;
         width:33%;
-        height:150px; 
-        overflow: hidden;
+        height:150px;
 }
 
 #bild3 {
-    background-color:blue;
-        float:right;
-        width:33.5%;
-        height:150px; 
-            <!--border-left-style: solid;
-            border-left-width: 8px;-->
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    border-style: solid;
+    border-left: 0px;
+    border-right: 0px;
     
+    float:right;
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:34%;
+    min-width: inherit;
     
+    height:150px;
 }
 
+#kossa {
+    width: 100%;
+    height: inherit;
+}
+#kyrka {
+    width:100%;
+    height: inherit;
+    
+}
+#blomma {
+    width: 100%;
+    height: inherit;
+}
 
