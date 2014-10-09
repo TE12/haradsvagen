@@ -13,14 +13,22 @@ body {
             border-color: blue;-->
 }
 
-#Kartbild
-{
- 
-        width:100%;
-        height:100%;   
-    
-    
+#karta {
+box-sizing: border-box;
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+
+width: 100%;
+height:100%;
+display: flex;
 }
+
+#appkarta{
+width: inherit;
+height:inherit;
+
+}
+
 #ruta1 {
     padding: 12px;
     font-family: sans-serif;
@@ -191,7 +199,7 @@ body {
  
 section.content {
         font-family: Arial, Helvetica, sans-serif;
-        padding: 3px 0px;     
+        padding: 0px 0px;     
 }
 
 
