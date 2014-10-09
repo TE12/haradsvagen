@@ -53,14 +53,17 @@ height:inherit;
 
 #slider {
     border-bottom-style: solid;
-    border-bottom-width: 7px;
+    border-bottom-width: 0px;
     border-bottom-color: #4F2E1D;
     display: flex;
     
 }
 
+#bilden {
+    display: flex;
+} 
+
 #bild1  {
-        
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
