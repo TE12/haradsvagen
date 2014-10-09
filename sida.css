@@ -2,6 +2,13 @@ html {
     background-color:#F6F6F6;
 }
 
+.container{
+margin: 0px;
+padding: 0px;
+
+
+}
+
 body {
     margin-top: 0;
     margin-left: auto;
