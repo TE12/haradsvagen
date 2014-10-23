@@ -13,6 +13,16 @@
                         $('.pushmenu-push').toggleClass('pushmenu-push-toright');
                         $menuLeft.toggleClass('pushmenu-open');
                 });
+            
+            $("#appkarta").css("height", ($(window).height() - 42) + "px");
++		$("#appkarta").css("width", $(window).width() + "px");
+
+            
+            
+            $('.slider').css("top", $("#header_image").height() + 42 + "px");
+   
+            $("#ruta1").css("top", $("#header_image").height() + $('.slider').height() +42+ "px");
+            
         });
 
 function fixPicSize()
