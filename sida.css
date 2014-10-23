@@ -47,6 +47,7 @@ body {
     display: flex;
     position:fixed;
     overflow:hidden;
+    width: 100%;
 }
 
 .bilden {
@@ -56,18 +57,14 @@ body {
 
 
 #bild1  {
-    box-sizing: border-box;
-    -moz-box-sizing:border-box;
-    -webkit-box-sizing:border-box;
-        border-style: solid;
-        border-left: 0px;
         
-        width: 33%;
+    
+        width: 100%;
         display: flex; 
-        float:left;
+        
 }
 
-#bild2 {
+<!--#bild2 {
     box-sizing: border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
@@ -94,7 +91,7 @@ body {
     min-width: inherit;
     
     display: flex;
-}
+}-->
 
 #left_pic {
     width: 100%;
