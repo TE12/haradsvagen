@@ -3,10 +3,9 @@ html {
 }
 
 .container{
-margin: 0px;
-padding: 0px;
-
-
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
 }
 
 body {
@@ -16,9 +15,7 @@ body {
     margin-right: auto;
     width:100%;
     background-color:#F6F6F0;
-            <!-- border-style: solid;
-            border-width: 10px;
-            border-color: blue;-->
+
 }
 
 
@@ -123,7 +120,7 @@ body {
         width: 240px;
         height: 100%;
         top: 0;
-        z-index: 1000;
+        z-index: 1;
 }
  
 .pushmenu h3 {
@@ -227,8 +224,10 @@ ul {
 ul li {
   font: bold 12px/18px sans-serif;
   display: inline-block;
-  margin-right: -4px;
+  margin-right: 0px;
   position: relative;
+    right: 0px;
+  width: 100px;
   padding: 15px 20px;
   background: #fff;
   cursor: pointer;
