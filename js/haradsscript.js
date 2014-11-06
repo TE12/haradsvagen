@@ -29,7 +29,7 @@ function fixPicSize()
 {
 var p1 = document.getElementById('left_pic');
 var picHeight = p1.height + "px";
-var bildHeight = p1.height + 6 + "px";
+/*var bildHeight = p1.height + 6 + "px";
 p1.style.height = picHeight;
 p1 = document.getElementById('middle_pic');
 p1.style.height = picHeight;
@@ -40,7 +40,7 @@ p1.style.height = bildHeight;
 p1 = document.getElementById('bild2');
 p1.style.height = bildHeight;
 p1 = document.getElementById('bild3');
-p1.style.height = bildHeight;
+p1.style.height = bildHeight;*/
 p1 = document.getElementById('slider');
 p1.style.height = picHeight;
 
