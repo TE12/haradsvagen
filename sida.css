@@ -142,7 +142,7 @@ body {
 }
  
 .pushmenu a:hover {
-        background:258ecd;      
+        background:#258ecd;      
 }
  
 .pushmenu a:active {
@@ -220,13 +220,14 @@ ul {
 
 ul li {
   font: bold 12px/18px sans-serif;
+text-decoration-color: #000;
   display: inline-block;
   margin-right: 0px;
   position: relative;
     right: 0px;
   width: 100px;
   padding: 15px 20px;
-  background: #fff;
+  background: #4F2E1D;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -235,17 +236,13 @@ ul li {
   transition: all 0.2s;
 }
 
-ul li:hover {
-  background: #555;
-  color: #fff;
-}
 
 ul li ul {
   padding: 0;
   position: absolute;
-  top: 43px;
+  top: 40px;
   left: 0;
-  width: 150px;
+  width: 130px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -260,15 +257,17 @@ ul li ul {
 }
 
 ul li ul li { 
-  background: #fff; 
+  background: #4F2E1D; 
     opacity: 1;
   display: block; 
   color: #000;
+    overflow:scroll;
+
 }
 
 ul li ul li:hover 
 { 
-    background: #666; 
+    background: #FFD; 
 }
 
 ul li:hover ul {
@@ -281,13 +280,28 @@ ul li:hover ul {
 {
     height: 46px;
     width: 100px;
-    position:fixed;
+    position:absolute;
     top: 0px;
     right: 50px;
     
+    
+}
+
+a:link {
+    text-decoration: none;
+    color:#FFF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #6EF;
 }
 
 
+a:active {
+    text-decoration: underline;
+    
+}
 
 
 
