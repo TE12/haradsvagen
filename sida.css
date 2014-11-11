@@ -216,6 +216,7 @@ ul {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  
 }
 
 ul li {
@@ -234,14 +235,23 @@ text-decoration-color: #000;
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+  
+    -webkit-padding-start: 0px;
+  -webkit-padding-after: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-end: 0px;
+  -webkit-margin-before:0px;
+-webkit-margin-end:0px:
+-webkit-margin-after: 0px;
+-webkit-margin-start:0px;
 }
 
 
 ul li ul {
   padding: 0;
   position: absolute;
-  top: 40px;
-  left: 0;
+  top: 29px;
+  left: 0px;
   width: 130px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -253,7 +263,8 @@ ul li ul {
   -moz-transition: opacity 0.2s;
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+  -transition: opacity 0.2s;    
+
 }
 
 ul li ul li { 
@@ -261,7 +272,8 @@ ul li ul li {
     opacity: 1;
   display: block; 
   color: #000;
-    overflow:scroll;
+    padding-bottom: 10px;
+    padding-left: 7px;
 
 }
 
@@ -284,6 +296,7 @@ ul li:hover ul {
     top: 0px;
     right: 50px;
     
+
     
 }
 
@@ -294,7 +307,7 @@ a:link {
 
 a:visited {
     text-decoration: none;
-    color: #6EF;
+    color: #FFF;
 }
 
 
