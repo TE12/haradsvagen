@@ -216,17 +216,17 @@ ul {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-  
+ font-family: Arial, Helvetica, sans-serif ;
 }
 
 ul li {
-  font: bold 12px/18px sans-serif;
+     font-family: Arial, Helvetica, sans-serif ;
 text-decoration-color: #000;
   display: inline-block;
   margin-right: 0px;
   position: relative;
     right: 0px;
-  width: 100px;
+  width: 200px;
   padding: 15px 20px;
   background: #4F2E1D;
   cursor: pointer;
@@ -252,7 +252,7 @@ ul li ul {
   position: absolute;
   top: 29px;
   left: 0px;
-  width: 130px;
+  width: 200px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -291,7 +291,7 @@ ul li:hover ul {
 .right-menu
 {
     height: 46px;
-    width: 100px;
+    width: 200px;
     position:absolute;
     top: 0px;
     right: 50px;
