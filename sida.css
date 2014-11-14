@@ -252,10 +252,10 @@ li
     width: 175px;
     position:absolute;
     top: 10px;
-    right: 0px;
+    right: 30px;
     font-family: Arial, Helvetica, sans-serif ;
     color: #fff;
-
+    text-align:right;
 }
 
 #platserna {
