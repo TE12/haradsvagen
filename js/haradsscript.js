@@ -5,6 +5,8 @@
             $(function() {
     FastClick.attach(document.body);
 });
+            
+            
                 $menuLeft = $('.pushmenu-left');
                 $nav_list = $('#nav_list');
                  
@@ -22,6 +24,18 @@
             $('.slider').css("top", $("#header_image").height() + 42 + "px");
    
             $("#ruta1").css("top", $("#header_image").height() + $('.slider').height() +42+ "px");
+            
+            
+            $("#platserna").hide();
+            
+            $("#plats_lank").click(function(){
+                  
+            
+              $("#platserna").toggle();  
+            
+            });
+            
+            
             
         });
 
