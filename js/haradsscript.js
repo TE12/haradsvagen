@@ -25,6 +25,7 @@
    
             $("#ruta1").css("top", $("#header_image").height() + $('.slider').height() +42+ "px");
             
+            $("#platserna").css("height", $(window).height() -42 + "px");
             
             $("#platserna").hide();
             
