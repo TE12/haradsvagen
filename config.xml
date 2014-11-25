@@ -17,7 +17,25 @@
         <access origin="*" />
 
         <icon src="ikon.png" />
- 
+ <!-- ios -->
+    <!-- iPhone 6 / 6+ -->
+<icon src="ikon.png" gap:platform="ios" width="180" height="180" />
+
+<!-- iPhone / iPod Touch  -->
+<icon src="ikon.png" gap:platform="ios" width="60" height="60" />
+<icon src="ikon.png" gap:platform="ios" width="120" height="120" />
+
+<!-- iPad -->
+<icon src="ikon.png" gap:platform="ios" width="76" height="76" />
+<icon src="ikon.png" gap:platform="ios" width="152" height="152" />
+
+<!-- Settings Icon -->
+<icon src="ikon.png" gap:platform="ios" width="29" height="29" />
+<icon src="ikon.png" gap:platform="ios" width="58" height="58" />
+
+<!-- Spotlight Icon -->
+<icon src="ikon.png" gap:platform="ios" width="40" height="40" />
+<icon src="ikon.png" gap:platform="ios" width="80" height="80" />
     
        <!--
         If you do not want any permissions to be added to your app, add the
