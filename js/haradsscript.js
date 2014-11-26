@@ -1,5 +1,5 @@
 // Device ready
-/*        document.addEventListener("deviceready", onDeviceReady, false);
+        document.addEventListener("deviceready", onDeviceReady, false);
 
     // device APIs are available
     //
@@ -10,11 +10,6 @@
             StatusBar.backgroundColorByHexString("#156dc0");
  
     }
-*/
- document.addEventListener("deviceready", function(){
-      alert("123");
- },true);          
-    
 
         $(document).ready(function() {
             $(function() {
