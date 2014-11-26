@@ -5,9 +5,8 @@
     //
     function onDeviceReady() {
         // Now safe to use device APIs
-        alert("device ready");
         StatusBar.overlaysWebView(false);
-            StatusBar.backgroundColorByHexString("#156dc0");
+            StatusBar.backgroundColorByHexString("#000000");
  
     }
 
