@@ -6,6 +6,8 @@
     FastClick.attach(document.body);
 });
             
+            StatusBar.overlaysWebView(false);
+            StatusBar.backgroundColorByHexString("#156dc0");
             
                 $menuLeft = $('.pushmenu-left');
                 $nav_list = $('#nav_list');
