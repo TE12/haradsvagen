@@ -19,7 +19,7 @@
         <icon src="ikon.png" />
  
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
-    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="StatusBarOverlaysWebView" value="true" />
     <preference name="StatusBarBackgroundColor" value="#000000" />
        <!--
         If you do not want any permissions to be added to your app, add the
