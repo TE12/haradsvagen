@@ -1,4 +1,18 @@
+// Device ready
+function onLoad() {
+        document.addEventListener("deviceready", onDeviceReady, false);
+    }
 
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // Now safe to use device APIs
+        
+        StatusBar.overlaysWebView(false);
+            StatusBar.backgroundColorByHexString("#156dc0");
+ 
+    }
+           
     
 
         $(document).ready(function() {
@@ -6,8 +20,6 @@
     FastClick.attach(document.body);
 });
             
-            StatusBar.overlaysWebView(false);
-            StatusBar.backgroundColorByHexString("#156dc0");
             
                 $menuLeft = $('.pushmenu-left');
                 $nav_list = $('#nav_list');
