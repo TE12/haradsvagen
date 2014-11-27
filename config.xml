@@ -17,7 +17,7 @@
         <access origin="*" />
 
         <icon src="icon_andr.png" />
-        <icon src="icon.png" platform="ios" />
+        <icon src="icon@2x.png" platform="ios" />
 
  
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
