@@ -17,6 +17,8 @@
         <access origin="*" />
 
         <icon src="ikon.png" />
+        <icon src="ikonios.png" platform="ios" />
+
  
     <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
     <preference name="StatusBarOverlaysWebView" value="true" />
